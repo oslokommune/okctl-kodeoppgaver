@@ -4,7 +4,7 @@ Lag en enkel applikasjon som kjører i et Kubernetes cluster med tilhørende doc
 
 Applikasjonen skal på endepunktet `/origo` returnere en oversikt over alle stasjoner fra endepunkt beskrevet under. Dette trenger bare returneres som rådata.
 
-Tips: Du kan bruke for eksempel k3d, minikube eller k3s for å bygge og teste Kubernetes manifestene dine om du ikke har et cluster tilgjengelig.
+Tips: Du kan bruke for eksempel k3d eller minikube for å bygge og teste Kubernetes manifestene dine om du ikke har et cluster tilgjengelig.
 
 Krav
 * Applikasjon skal lages som en docker-container som skal kunne returnere stasjoner fra oslo-bysykkel api
@@ -14,4 +14,4 @@ Krav
 * Så lang det lar se gjøre: følge best practices for Dockerfile og Kubernetes manifester
 * Bruk et valgfritt programmeringsspråk
 * Docker image skal lastes opp på docker hub eller liknende (slik at kan kjøres av oss)
-* Koden levers som et åpent github repository
+* Koden leveres som et åpent github repository
